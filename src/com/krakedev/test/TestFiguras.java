@@ -9,7 +9,7 @@ public class TestFiguras {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Figura f1 = new Figura("Figuras","negro");
-		Cuadrado c1 = new Cuadrado("Cuadrado","blanco");
+		Cuadrado c1 = new Cuadrado("Cuadrado","blanco",5);
 		Triangulo t1 = new Triangulo("Triangulo","rosado");
 		
 		//Imprimmir los objetos

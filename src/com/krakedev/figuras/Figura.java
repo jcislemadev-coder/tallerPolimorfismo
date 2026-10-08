@@ -38,5 +38,11 @@ public class Figura {
 	public void graficador(Figura figura) {
 		System.out.println("GRAFICANDO: "+nombre + " NOMBRE: "+color);
 	}
+	
+	//Inclusion de metodo calcular Perimetro
+	public int calcularPerimetro() {
+		System.out.println("Calculo del perimetro o area");
+		return 0;
+	}
 
 }
