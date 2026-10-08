@@ -1,9 +1,12 @@
 package com.krakedev.figuras;
 
-public class Graficador  extends Figura {
+public class Graficador {
 	
-	public Graficador (String nombre, String color) {
-		super(nombre,color);
+	//Inclusion de metodo
+	public void graficador(Figura figura) {
+		System.out.println("GRAFICANDO: "+ figura.getNombre() + " DE COLOR: "+ figura.getColor());
+		System.out.println("Perimetro: "+ figura.calcularPerimetro());
 	}
+
 
 }

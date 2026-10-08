@@ -13,7 +13,6 @@ public class TestPerimetros {
 		System.out.println(c1.calcularPerimetro());
 		System.out.println(r1.calcularPerimetro());
 		
-
 	}
 
 }

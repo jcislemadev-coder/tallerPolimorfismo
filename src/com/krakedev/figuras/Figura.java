@@ -33,16 +33,12 @@ public class Figura {
 		this.nombre = nombre;
 		this.color = color;
 	}
-
-	//Inclusion de metodo
-	public void graficador(Figura figura) {
-		System.out.println("GRAFICANDO: "+nombre + " NOMBRE: "+color);
-	}
 	
 	//Inclusion de metodo calcular Perimetro
 	public int calcularPerimetro() {
-		System.out.println("Calculo del perimetro o area");
 		return 0;
 	}
+	
+	
 
 }

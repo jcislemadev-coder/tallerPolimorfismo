@@ -7,10 +7,10 @@ public class Cuadrado extends Figura{
 		this.lado = lado;
 	}
 	
-	@Override
 	
+	@Override
 	public int calcularPerimetro() {
 		return 4*lado;
 	}
-
+	
 }
