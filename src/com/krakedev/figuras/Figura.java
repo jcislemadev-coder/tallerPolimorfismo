@@ -24,7 +24,7 @@ public class Figura {
 	// Sobrescritura del metodo toString
 	@Override
 	public String toString() {
-		return "Figura [nombre=" + nombre + ", color=" + color + "]";
+		return "Tipo [nombre=" + nombre + ", color=" + color + "]";
 	}
 
 	// Inclusion de constructor
