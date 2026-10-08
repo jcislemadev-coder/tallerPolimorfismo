@@ -6,7 +6,4 @@ public class Graficador  extends Figura {
 		super(nombre,color);
 	}
 
-	public void graficador(Figura figura) {
-		System.out.println("GRAFICANDO: "+nombre + " NOMBRE: "+color);
-	}
 }

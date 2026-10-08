@@ -34,4 +34,9 @@ public class Figura {
 		this.color = color;
 	}
 
+	//Inclusion de metodo
+	public void graficador(Figura figura) {
+		System.out.println("GRAFICANDO: "+nombre + " NOMBRE: "+color);
+	}
+
 }
