@@ -6,6 +6,7 @@ public class Graficador {
 	public void graficador(Figura figura) {
 		System.out.println("GRAFICANDO: "+ figura.getNombre() + " DE COLOR: "+ figura.getColor());
 		System.out.println("Perimetro: "+ figura.calcularPerimetro());
+		System.out.println("Area: "+ figura.calcularArea());
 	}
 
 

@@ -39,6 +39,14 @@ public class Figura {
 		return 0;
 	}
 	
+	//Inclusion de Calculo del area
+	
+	public double calcularArea() {
+		return 0;
+	}
+	
+	
+	
 	
 
 }
