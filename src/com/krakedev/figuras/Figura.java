@@ -1,6 +1,6 @@
 package com.krakedev.figuras;
 
-public class Figura {
+public abstract class Figura {
 	String nombre;
 	String color;
 
@@ -35,18 +35,9 @@ public class Figura {
 	}
 	
 	//Inclusion de metodo calcular Perimetro
-	public int calcularPerimetro() {
-		return 0;
-	}
+	public abstract int calcularPerimetro();
 	
 	//Inclusion de Calculo del area
 	
-	public double calcularArea() {
-		return 0;
+	public abstract int calcularArea();
 	}
-	
-	
-	
-	
-
-}

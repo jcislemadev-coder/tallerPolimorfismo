@@ -24,7 +24,7 @@ public class Triangulo extends Figura {
 	}
 
 	@Override
-	public double calcularArea() {
+	public int calcularArea() {
 		return ((base * altura)/2);
 	}
 
